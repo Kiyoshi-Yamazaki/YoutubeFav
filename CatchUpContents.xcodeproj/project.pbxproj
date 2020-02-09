@@ -3,27 +3,57 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3A9D773523E51E1F0073FB69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D773423E51E1F0073FB69 /* AppDelegate.swift */; };
 		3A9D773723E51E1F0073FB69 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D773623E51E1F0073FB69 /* SceneDelegate.swift */; };
-		3A9D773923E51E1F0073FB69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D773823E51E1F0073FB69 /* ViewController.swift */; };
 		3A9D773C23E51E1F0073FB69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9D773A23E51E1F0073FB69 /* Main.storyboard */; };
 		3A9D773E23E51E260073FB69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A9D773D23E51E260073FB69 /* Assets.xcassets */; };
 		3A9D774123E51E260073FB69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9D773F23E51E260073FB69 /* LaunchScreen.storyboard */; };
+		3A9D774C23E54FBC0073FB69 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D774B23E54FBC0073FB69 /* RegisterViewController.swift */; };
+		3A9D775023E5524C0073FB69 /* ProfileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D774F23E5524C0073FB69 /* ProfileData.swift */; };
+		3A9D775223E558DC0073FB69 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A9D775123E558DC0073FB69 /* GoogleService-Info.plist */; };
+		3A9D775423E568740073FB69 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D775323E568740073FB69 /* Alert.swift */; };
+		3A9D775623E596190073FB69 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D775523E596190073FB69 /* SearchViewController.swift */; };
+		3A9D775823E6DB880073FB69 /* YoutubeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D775723E6DB880073FB69 /* YoutubeData.swift */; };
+		3A9D775A23E6E7C60073FB69 /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D775923E6E7C60073FB69 /* SelectViewController.swift */; };
+		3A9D775D23E710550073FB69 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D775B23E710550073FB69 /* CustomCell.swift */; };
+		3A9D775E23E710550073FB69 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A9D775C23E710550073FB69 /* CustomCell.xib */; };
+		3A9D776023E805730073FB69 /* FavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D775F23E805730073FB69 /* FavViewController.swift */; };
+		3A9D776223E851130073FB69 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D776123E851120073FB69 /* WebViewController.swift */; };
+		3A9D776423E990400073FB69 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D776323E9903F0073FB69 /* UsersViewController.swift */; };
+		3A9D776623E9919A0073FB69 /* GetUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D776523E9919A0073FB69 /* GetUserData.swift */; };
+		3A9D776823E99A940073FB69 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D776723E99A940073FB69 /* UserListViewController.swift */; };
+		9A6CD64D01B183234414C956 /* Pods_CatchUpContents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 804334078C91C35AFFEC78AE /* Pods_CatchUpContents.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12E87C71AE9053663A9C0D8E /* Pods-CatchUpContents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatchUpContents.debug.xcconfig"; path = "Target Support Files/Pods-CatchUpContents/Pods-CatchUpContents.debug.xcconfig"; sourceTree = "<group>"; };
 		3A9D773123E51E1F0073FB69 /* CatchUpContents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatchUpContents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A9D773423E51E1F0073FB69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A9D773623E51E1F0073FB69 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3A9D773823E51E1F0073FB69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3A9D773B23E51E1F0073FB69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A9D773D23E51E260073FB69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A9D774023E51E260073FB69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A9D774223E51E260073FB69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A9D774B23E54FBC0073FB69 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		3A9D774F23E5524C0073FB69 /* ProfileData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileData.swift; sourceTree = "<group>"; };
+		3A9D775123E558DC0073FB69 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3A9D775323E568740073FB69 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		3A9D775523E596190073FB69 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		3A9D775723E6DB880073FB69 /* YoutubeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeData.swift; sourceTree = "<group>"; };
+		3A9D775923E6E7C60073FB69 /* SelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		3A9D775B23E710550073FB69 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		3A9D775C23E710550073FB69 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		3A9D775F23E805730073FB69 /* FavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavViewController.swift; sourceTree = "<group>"; };
+		3A9D776123E851120073FB69 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		3A9D776323E9903F0073FB69 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		3A9D776523E9919A0073FB69 /* GetUserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUserData.swift; sourceTree = "<group>"; };
+		3A9D776723E99A940073FB69 /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		6639225C81B3225A7C52D302 /* Pods-CatchUpContents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatchUpContents.release.xcconfig"; path = "Target Support Files/Pods-CatchUpContents/Pods-CatchUpContents.release.xcconfig"; sourceTree = "<group>"; };
+		804334078C91C35AFFEC78AE /* Pods_CatchUpContents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatchUpContents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A6CD64D01B183234414C956 /* Pods_CatchUpContents.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +73,8 @@
 			children = (
 				3A9D773323E51E1F0073FB69 /* CatchUpContents */,
 				3A9D773223E51E1F0073FB69 /* Products */,
+				D4256869C3B7F3AD5C8FD9B3 /* Pods */,
+				D1222E8FD19E525A139D337E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +89,69 @@
 		3A9D773323E51E1F0073FB69 /* CatchUpContents */ = {
 			isa = PBXGroup;
 			children = (
-				3A9D773423E51E1F0073FB69 /* AppDelegate.swift */,
-				3A9D773623E51E1F0073FB69 /* SceneDelegate.swift */,
-				3A9D773823E51E1F0073FB69 /* ViewController.swift */,
-				3A9D773A23E51E1F0073FB69 /* Main.storyboard */,
-				3A9D773D23E51E260073FB69 /* Assets.xcassets */,
-				3A9D773F23E51E260073FB69 /* LaunchScreen.storyboard */,
+				3A9D774A23E548B90073FB69 /* Model */,
+				3A9D774923E548B10073FB69 /* View */,
+				3A9D774823E548A30073FB69 /* Controller */,
+				3A9D775123E558DC0073FB69 /* GoogleService-Info.plist */,
 				3A9D774223E51E260073FB69 /* Info.plist */,
 			);
 			path = CatchUpContents;
+			sourceTree = "<group>";
+		};
+		3A9D774823E548A30073FB69 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3A9D773423E51E1F0073FB69 /* AppDelegate.swift */,
+				3A9D773623E51E1F0073FB69 /* SceneDelegate.swift */,
+				3A9D774B23E54FBC0073FB69 /* RegisterViewController.swift */,
+				3A9D775523E596190073FB69 /* SearchViewController.swift */,
+				3A9D775923E6E7C60073FB69 /* SelectViewController.swift */,
+				3A9D775F23E805730073FB69 /* FavViewController.swift */,
+				3A9D776123E851120073FB69 /* WebViewController.swift */,
+				3A9D776323E9903F0073FB69 /* UsersViewController.swift */,
+				3A9D776723E99A940073FB69 /* UserListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3A9D774923E548B10073FB69 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3A9D773A23E51E1F0073FB69 /* Main.storyboard */,
+				3A9D773D23E51E260073FB69 /* Assets.xcassets */,
+				3A9D773F23E51E260073FB69 /* LaunchScreen.storyboard */,
+				3A9D775B23E710550073FB69 /* CustomCell.swift */,
+				3A9D775C23E710550073FB69 /* CustomCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3A9D774A23E548B90073FB69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A9D774F23E5524C0073FB69 /* ProfileData.swift */,
+				3A9D775323E568740073FB69 /* Alert.swift */,
+				3A9D775723E6DB880073FB69 /* YoutubeData.swift */,
+				3A9D776523E9919A0073FB69 /* GetUserData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D1222E8FD19E525A139D337E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				804334078C91C35AFFEC78AE /* Pods_CatchUpContents.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4256869C3B7F3AD5C8FD9B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12E87C71AE9053663A9C0D8E /* Pods-CatchUpContents.debug.xcconfig */,
+				6639225C81B3225A7C52D302 /* Pods-CatchUpContents.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A9D774523E51E260073FB69 /* Build configuration list for PBXNativeTarget "CatchUpContents" */;
 			buildPhases = (
+				ACCC47BCAD92C20B37EB2CBF /* [CP] Check Pods Manifest.lock */,
 				3A9D772D23E51E1F0073FB69 /* Sources */,
 				3A9D772E23E51E1F0073FB69 /* Frameworks */,
 				3A9D772F23E51E1F0073FB69 /* Resources */,
+				48364ACB453A1AD4EA3CD79B /* [CP] Embed Pods Frameworks */,
+				F7A811D09CB8C753F86B15A7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,21 +215,93 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A9D775E23E710550073FB69 /* CustomCell.xib in Resources */,
 				3A9D774123E51E260073FB69 /* LaunchScreen.storyboard in Resources */,
 				3A9D773E23E51E260073FB69 /* Assets.xcassets in Resources */,
+				3A9D775223E558DC0073FB69 /* GoogleService-Info.plist in Resources */,
 				3A9D773C23E51E1F0073FB69 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		48364ACB453A1AD4EA3CD79B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CatchUpContents/Pods-CatchUpContents-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CatchUpContents/Pods-CatchUpContents-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CatchUpContents/Pods-CatchUpContents-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACCC47BCAD92C20B37EB2CBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CatchUpContents-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7A811D09CB8C753F86B15A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CatchUpContents/Pods-CatchUpContents-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CatchUpContents/Pods-CatchUpContents-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CatchUpContents/Pods-CatchUpContents-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3A9D772D23E51E1F0073FB69 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A9D773923E51E1F0073FB69 /* ViewController.swift in Sources */,
+				3A9D775623E596190073FB69 /* SearchViewController.swift in Sources */,
+				3A9D776423E990400073FB69 /* UsersViewController.swift in Sources */,
+				3A9D776223E851130073FB69 /* WebViewController.swift in Sources */,
+				3A9D775423E568740073FB69 /* Alert.swift in Sources */,
+				3A9D774C23E54FBC0073FB69 /* RegisterViewController.swift in Sources */,
 				3A9D773523E51E1F0073FB69 /* AppDelegate.swift in Sources */,
+				3A9D775D23E710550073FB69 /* CustomCell.swift in Sources */,
+				3A9D776823E99A940073FB69 /* UserListViewController.swift in Sources */,
+				3A9D776623E9919A0073FB69 /* GetUserData.swift in Sources */,
+				3A9D775A23E6E7C60073FB69 /* SelectViewController.swift in Sources */,
+				3A9D775823E6DB880073FB69 /* YoutubeData.swift in Sources */,
+				3A9D775023E5524C0073FB69 /* ProfileData.swift in Sources */,
+				3A9D776023E805730073FB69 /* FavViewController.swift in Sources */,
 				3A9D773723E51E1F0073FB69 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +444,7 @@
 		};
 		3A9D774623E51E260073FB69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12E87C71AE9053663A9C0D8E /* Pods-CatchUpContents.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -294,12 +457,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kiyoshi.CatchUpContents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3A9D774723E51E260073FB69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6639225C81B3225A7C52D302 /* Pods-CatchUpContents.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -312,7 +476,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kiyoshi.CatchUpContents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
