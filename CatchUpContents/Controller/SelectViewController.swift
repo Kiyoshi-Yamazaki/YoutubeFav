@@ -61,7 +61,7 @@ class SelectViewController: UIViewController,VerticalCardSwiperDelegate,Vertical
             
             cardViewCell.channelNameLabel.text = self.channelTitleArrey[index]
             cardViewCell.titleLabel.text = self.titleArrey[index]
-        cardViewCell.channelImageView!.sd_setImage(with:URL(string:self.imageURLArrey[index] ) , completed: nil)
+            cardViewCell.channelImageView!.sd_setImage(with:URL(string:self.imageURLArrey[index] ) , completed: nil)
             
             
             return cardViewCell
