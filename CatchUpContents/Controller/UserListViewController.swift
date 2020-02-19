@@ -55,10 +55,9 @@ class UserListViewController: UIViewController,UITableViewDelegate,UITableViewDa
                           let childSnapshot = child as! DataSnapshot
                           let youtubeData = YoutubeData(snapshot: childSnapshot)
                           self.youtubeDataArray.insert(youtubeData, at: 0)
-                          self.listTableView.reloadData()
                           
                       }
-                      
+                      self.listTableView.reloadData()
                       HUD.hide()
                   }
            

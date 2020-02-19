@@ -56,10 +56,9 @@ class FavViewController: UIViewController,UITableViewDelegate,UITableViewDataSou
                        let childSnapshot = child as! DataSnapshot
                        let youtubeData = YoutubeData(snapshot: childSnapshot)
                        self.youtubeDataArray.insert(youtubeData, at: 0)
-                       self.favTableView.reloadData()
-                       
+                      
                    }
-                   
+                    self.favTableView.reloadData()
                    HUD.hide()
                }
         
