@@ -43,10 +43,9 @@ class UsersViewController: UIViewController,UITableViewDelegate,UITableViewDataS
                        let childSnapshot = child as! DataSnapshot
                        let listData = GetUserData(snapshot: childSnapshot)
                        self.getUserDataArray.insert(listData, at: 0)
-                       self.usersTableView.reloadData()
-                       
-                       
+                      
                    }
+            self.usersTableView.reloadData()
             HUD.hide()
                    
                    
